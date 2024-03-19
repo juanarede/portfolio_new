@@ -684,4 +684,26 @@
   /* scrolled animation  */
 
   
+  /* arrow  */
+  .scroll-top {
+    position: fixed;
+    bottom: 20rem; /* ajusta según tu preferencia */
+    right: -30px; /* ajusta según tu preferencia */
+    cursor: pointer;
+    z-index: 9999; /* para que esté por encima de otros elementos */
+    transition: transform 0.3s ease; /* transición suave para el movimiento */
+  }
+  
+  .scroll-top img {
+    width: 70px; /* ajusta según tu preferencia */
+    height: auto; /* ajusta según tu preferencia */
+  }
+  
+
+  .images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+  
   
