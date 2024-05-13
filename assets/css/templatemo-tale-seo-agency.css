@@ -89,10 +89,13 @@ html, body {
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+ 
+
+  
     background: rgb(96,56,144);
-    background: -moz-radial-gradient(circle, rgba(96,56,144,1) 0%, rgba(0,0,0,1) 60%);
-    background: -webkit-radial-gradient(circle, rgba(96,56,144,1) 0%, rgba(0,0,0,1) 60%);
-    background: radial-gradient(circle, rgba(96,56,144,1) 0%, rgba(0,0,0,1) 60%);
+    background: -moz-radial-gradient(circle, rgb(22, 18, 27) 0%, rgba(0,0,0,1) 60%);
+    background: -webkit-radial-gradient(circle, rgb(28, 22, 36) 0%, rgba(0,0,0,1) 60%);
+    background: radial-gradient(circle, rgb(37, 29, 46) 0%, rgba(0,0,0,1) 60%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#603890",endColorstr="#000000",GradientType=1);
   
  
