@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap');
 
+
+
+
 /* NAV */
 .navbar {
     background-color: transparent;
@@ -1070,4 +1073,23 @@
   width: 0;
   height: 100%;
   background: #9B5DE5;
+}
+
+
+
+
+
+
+h1.big {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  font-size: 7vw;
+  color: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+  font-weight: 900;
+  text-align: center;
+}
+h1.big.big-2 {
+  right: 0;
 }
